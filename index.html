@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>web界面</title>
+<link href="reset.css" rel="stylesheet" type="text/css">
+<link href="index.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="cf">
+  <div class="aside">
+  	<!--网盘logo-->
+  	<a class="db" title="测试网盘" href="#">
+    	<h1 class="logo text-logo">网盘</h1>
+    </a>
+    <!--用户信息-->
+    <div id="user-info-box" class="padding-lr20 margin-b20">
+    	<p id="username">乐乐Inc&nbsp;&nbsp;空间使用情况</p>
+        <div id="space" class="space margin-b5">
+        	<p id="user-space-used" class="user-space-used">500MB / 5.00 GB</p>
+            <div id="used-space-percent" class="used-space-percent" style="width:25px;"></div>
+        </div>
+        <p>其他信息XXXX</p>
+    </div>
+    <!--操作导航列表信息-->
+    <div id="nav-box" class="menu font14 bold">
+    	<a id="file" class="active" href="#" title="文件管理">
+        	<span class="ico ico-file">文件管理</span>
+        </a>
+        <a id="share" href="#" title="我收到的共享文件">
+        	<span class="ico ico-share">我收到的共享文件</span>
+        </a>
+        <a id="link" href="#" title="我的分享链接">
+        	<span class="ico ico-link">我的分享链</span>
+        </a>
+        <a id="recycle" href="#" title="回收站">
+        	<span class="ico ico-trash">回收站</span>
+        </a>
+    </div>
+    <!--管理列表信息-->
+    <div id="contral-box" class="menu font14 bold top">
+    	<a id="ftp" href="#" title="ftp服务器信息">
+        	<span class="ico">FTP服务器</span>
+        </a>
+        <a id="web" href="#" title="web服务器信息">
+        	<span class="ico">WEB服务器</span>
+        </a>
+        <a id="user" href="#" title="用户基础信息">
+        	<span class="ico">用户信息</span>
+        </a>
+        <a id="default" href="#" title="基础设置信息">
+        	<span class="ico">基础设置</span>
+        </a>
+    </div>
+    
+  </div>
+  
+  <div class="mainer">
+<!--/*  	<iframe id="iframebox" name="iframebox" src="#" width="100%" height="100%" frameborder="0" framespacing="0" scrolling="auto">*/ -->  
+     <div id="movevalue" class="move-box">
+     	<ul id="treeroot" class="tree">
+        	<li>
+            	<div class="tree-node tree-node-selected" data-node-id="root">
+                	<span class="tree-hit tree-expanded"></span>
+                    <span class="tree-icon tree-folder icon-ok tree-folder-open"></span>
+                    <span class="tree-title">我的网盘</span>
+                </div>
+                <ul>
+                	<li>
+                    	<div class="treenode" data-node-id="2">
+                        	<span class="tree-indent"></span>
+                            <span class="tree-hit tree-collapse"></span>
+                            <span class="tree-icon tree-folder"></span>
+                            <span class="tree-title">我的文件夹</span>
+                        </div>
+                        <ul>
+                        	<li>
+                            	<div class="treenode" data-node-id="3">
+                                	<span class="tree-indent"></span>
+                                    <span class="tree-indent"></span>
+                                    <span class="tree-hit tree-collapse"></span>
+                                    <span class="tree-icon tree-folder"></span>
+                                    <span class="tree-title">我的文件夹x</span>
+                                </div>
+                                <ul></ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+     </div>
+    <!--/*</iframe>*/-->
+  </div>
+</div>
+</body>
+</html>

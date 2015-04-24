@@ -1,0 +1,182 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background:url(images/bgx.png) repeat-y  scroll 0 0 transparent;
+	color:#777;
+	font:12px/24px Tahoma,'Microsoft Yahei','Simsun';
+	word-wrap:break-word;
+}
+.aside{
+	position:fixed;
+	top:0;
+	left:0;
+	float:left;
+	z-index:100;
+	width:225px;
+	color:#fff;
+}
+.mainer{
+	position:absolute;
+	left:225px;
+	top:0;
+	right:0;
+	bottom:0;
+	background-color:#fefefe;
+}
+.aside a{
+	color:#fff;
+	text-decoration:none;
+}
+.db{
+	display:block;
+}
+.logo{
+	width:100%;
+	height:81px;
+}
+.text-logo{
+	overflow:hidden;
+	text-align:center;
+	vertical-align:middle;
+	line-height:81px;
+	font-size:36px;
+}
+.padding-lr20{
+	padding:0 20px;
+}
+.margin-b20{
+	margin-bottom:20px;
+}
+.margin-b5{
+	margin-bottom:5px;
+}
+.space{
+	background: -moz-linear-gradient(center top , #DCDCDC, #E1E1E1) repeat scroll 0 0 transparent;
+	background:-o-linear-gradient(center top , #dcdcdc , #e1e1e1) repeat scroll 0 0 transparent;
+	background:-webkit-gradient(center top , #dcdcdc , #e1e1e1) repeat scroll 0 0 transparent;
+	background:#dfdfdf;
+    border: 1px solid #353A3F;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 0 #73797F;
+    height: 15px;
+}
+.user-space-used{
+	position:absolute;
+	padding-left:5px;
+	line-height:15px;
+	font-size:11px;
+	color:#000;
+}
+.used-space-percent{
+	background: -moz-linear-gradient(center top , #51B913, #7DC332) repeat scroll 0 0 transparent;
+	background: -o-linear-gradient(center top , #51B913, #7DC332) repeat scroll 0 0 transparent;
+	background: -webkit-linear-gradient(center top , #51B913, #7DC332) repeat scroll 0 0 transparent;
+	background:#6abf24;
+    border-radius: 2px 2px 2px 2px;
+    height: 100%;
+}
+.menu{
+}
+.font14{
+	font-size:14px;
+}
+.bold{
+	font-weight:bold;
+}
+.top{
+	border-top:2px solid #090;
+}
+.menu a{
+	display:block;
+	padding:8px 20px;
+	line-height:38px;
+	color:#85afce;
+}
+.menu a:hover{
+	background-color:#0b73bd;
+}
+.menu .active{
+	background-color:#4a96cc;
+	color:#fff;
+}
+.menu .ico{
+	display:inline-block;
+	height:38px;
+	padding-left:59px;
+	cursor:pointer;
+	background:url(images/ico.png) no-repeat scroll transparent;
+}
+.menu .ico-file{
+	background-position:0 -875px;
+}
+.menu .ico-share{
+	background-position:0 -1005px;
+}
+.menu .ico-link{
+	background-position:0 -962px;
+}
+.menu .ico-trash{
+	background-position:0 -918px;
+}
+/*mainer部分css*/
+.move-box{
+	height:175px;
+	border:1px solid #d2d2d2;
+	padding:8px 2px;
+}
+.tree{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	font-size:12px;
+}
+.tree li{
+	white-space:nowrap;
+}
+.tree li ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+/*树节点样式表开始--*/
+.tree-node{
+	white-space:nowrap;
+	height:24px;
+}
+.tree-node-selected{
+	background-color:#FBFBCD;
+}
+.tree-indent{
+	display:inline-block;
+	width:16px;
+	height:18px;
+	vertical-align:middle;
+}
+
+.tree-hit{
+	cursor:pointer;
+}
+.tree-expanded{
+}
+.tree-collapse{
+}
+
+.tree-icon{
+}
+.tree-folder{
+	width:16px;
+	height:18px;
+	display:inline-block;
+	background:url(images/tree_folder.gif) no-repeat scroll 0 0 transparent;
+	vertical-align:middle;
+}
+.tree-folder-open{
+	background:url(images/tree_folder_open.gif) no-repeat scroll 0 0 transparent;
+}
+
+.tree-title{
+	display:inline-block;
+	padding:1px 2px;
+	white-space:nowrap;
+	vertical-align:middle;
+}
